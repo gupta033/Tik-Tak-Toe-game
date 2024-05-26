@@ -1,0 +1,60 @@
+/* Centering and styling the app */
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Set background to black */
+    color: #fff; /* Set text color to white */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling the board rows */
+  .board-row {
+    display: flex;
+  }
+  
+  /* Styling each square */
+  .square {
+    width: 100px;
+    height: 100px;
+    background: #333; /* Dark grey background for squares */
+    border: 2px solid #555; /* Slightly lighter grey for the border */
+    font-size: 36px;
+    font-weight: bold;
+    color: #00ff00; /* Bright green for text */
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease;
+  }
+  
+  /* Change background on hover */
+  .square:hover {
+    background: #444; /* Lighter grey on hover */
+  }
+  
+  /* Styling the game status */
+  .status {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  /* Styling the reset button */
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #000; /* Black text */
+    background-color: #00ff00; /* Bright green background */
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Change reset button colors on hover */
+  .reset-button:hover {
+    background-color: #00cc00; /* Darker green on hover */
+    color: #fff; /* White text on hover */
+  }
+  
